@@ -12,7 +12,7 @@ from torchvision import transforms
 from model import Generator
 
 API_TOKEN = '7603984249:AAFPfVGKRYr1FB-7MmC8PmKqqBV8HmKHnuU'
-MODEL_PATH = '/home/serttyzar/Projects/Anime_styling/models/cyclegan_128_135.pth'
+MODEL_PATH = 'models/cyclegan_128_135.pth'
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 bot = Bot(token=API_TOKEN)
