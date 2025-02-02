@@ -11,7 +11,7 @@ from aiogram.filters import Command
 from torchvision import transforms
 from model import Generator
 
-API_TOKEN = '7603984249:AAFPfVGKRYr1FB-7MmC8PmKqqBV8HmKHnuU'
+API_TOKEN = ''
 MODEL_PATH = 'models/cyclegan_128_135.pth'
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
