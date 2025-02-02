@@ -10,8 +10,11 @@ from aiogram.types import BufferedInputFile
 from aiogram.filters import Command
 from torchvision import transforms
 from model import Generator
+import os
 
-API_TOKEN = ''
+API_TOKEN = os.getenv('API_TOKEN')
+if API_TOKEN is None:
+    raise ValueError("API_TOKEN не задана в переменных окружения!")
 MODEL_PATH = 'models/cyclegan_128_135.pth'
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 
