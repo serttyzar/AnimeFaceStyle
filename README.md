@@ -46,7 +46,7 @@ TELEGRAM_TOKEN=ваш_токен
 После установки зависимостей запустите Telegram-бота:
 
 ```bash
-python bot.py
+python3 utils/tg_bot.py
 ```
 
 ## Архитектура проекта
