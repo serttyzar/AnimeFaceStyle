@@ -1,6 +1,6 @@
 # AnimeFaceStyle
 
-**AnimeFaceStyle** — это Telegram-бот [@AnimeStyleFace_bot](https://t.me/AnimeStyleFace_bot), который преобразует фотографии лиц в аниме-стиль с использованием нейросетевой модели CycleGAN.  
+**AnimeFaceStyle** — это Telegram-бот [@AnimeStyleFace_bot](https://t.me/AnimeStyleFace_bot) (Развернут в Render), который преобразует фотографии лиц в аниме-стиль с использованием нейросетевой модели CycleGAN.  
 
 
 ## О проекте
